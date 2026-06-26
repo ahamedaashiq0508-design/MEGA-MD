@@ -12,14 +12,14 @@ const config = {
     // Bot Config
     prefixes: _prefixes,
     prefix: _prefixes[0],
-    commandMode: process.env.COMMAND_MODE || 'public',
+    commandMode: process.env.COMMAND_MODE || 'private',
     timeZone: process.env.TIMEZONE || 'Asia/Karachi',
     // Links
     channelLink: process.env.CHANNEL_LINK || 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
     ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
     // Session
-    sessionId: process.env.SESSION_ID || '',
+    sessionId: process.env.SESSION_ID || 'GlobalTechInfo/MEGA-MD_a508552edf408e210e18e0525abb1609',
     pairingNumber: process.env.PAIRING_NUMBER || '',
     // Performance
     port: Number(process.env.PORT) || 5000,
